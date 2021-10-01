@@ -2,6 +2,7 @@
     max-height: 50px;
     position: absolute;
     top: 10px;
+    left : 10px;
 }
 body{
     margin: 0;
