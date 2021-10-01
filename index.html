@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="navbar.css">
     <title>Ero Shake</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,18 +15,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header class  ="header">
-       <img class = "logo" src = "images/logo.png"/> 
-       <div class="links">
-          <a href="#" class="home">Home </a>
-          <a href="#" class="home">Home </a>
-          <a href="#" class="home">Home </a>
-          <a href="#" class="home">Home </a>
-       </div> 
-
-    </header>
+    <nav>
+        <ul>
+           <li class="logo"><img class = "logo-img" src = "images/logo.png"/></li>
+           <li class="items"><a href="#">Home</a></li>
+           <li class="items"><a href="#">About</a></li>
+           <li class="items"><a href="#">Blogs</a></li>
+           <li class="items"><a href="#">Contact</a></li>
+           <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+     </nav>
     
     <div class="carousel-wrapper">
         <span id="item-1"></span>
@@ -57,7 +61,7 @@
             </div>
         </div>
         <section class="smothie-section">
-            <img src="images/ero7 ede.png" alt="" class="smothie-pic">
+            <img src="images/ero7 edited2.png" alt="" class="smothie-pic">
             <div class="smothie-texts">
                     <h1 class = "smothie-h1">Smoothie</h1>
                     <h2 class = "smothie-h2">We provide different smothies like our special (ero special) and different juices</h3>
@@ -65,6 +69,7 @@
         </section>
         <div class="spacer layer1"></div>
         <section class="takeaway-section">
+            <img src="images/ero6.png" alt="" class="takeaway-pic">
             <div class="takeaway-texts">
                 <h1 class = "takeaway-h1">Takeaways</h1>
                 <h2 class = "takeaway-h2">
@@ -72,12 +77,11 @@
             home and enjoy it with your friend and 
             families</h3>
             </div>
-            <img src="images/ero6.png" alt="" class="takeaway-pic">
             
         </section>
         <div class="spacer layer2"></div>
         <section class="pizzas-section">
-            <img src="images/ero40.png" alt="" class="pizzas-pic">
+            <img src="images/burger.png" alt="" class="pizzas-pic">
             <div class="pizzas-texts">
                 <h1 class = "pizzas-h1">Pizzas,Burger and many more</h1>
                 <h2 class = "pizzas-h2">
@@ -103,5 +107,13 @@
             <div class = "footer-3">Footer 3</div>
         </section>
     </main> 
+    <script>
+        $(document).ready(function(){
+          $('.btn').click(function(){
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+          });
+        });
+     </script>
 </body>
 </html>
