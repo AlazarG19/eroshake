@@ -1,6 +1,6 @@
 
 nav{
-  background: grey;
+  background: white;
   padding: 5px 40px;
 }
 nav ul{
@@ -28,7 +28,7 @@ nav ul li.items:after{
   bottom: 5px;
   height: 2px;
   width: 100%;
-  background: #33ffff;
+  background: grey;
   opacity: 0;
   transition: all 0.2s linear;
 }
@@ -45,13 +45,13 @@ nav ul li.logo{
   user-select: none;
 }
 nav ul li a{
-  color: white;
+  color: black;
   font-size: 18px;
   text-decoration: none;
   transition: .4s;
 }
 nav ul li:hover a{
-  color: cyan;
+  color: grey;
 }
 nav ul li i{
   font-size: 23px;

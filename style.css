@@ -27,7 +27,7 @@ body{
     position: relative;
     width: 100%;
     display: block;
-    margin: 0;
+    margin: 15px 0 15px 0;
     aspect-ratio : 900/300;
   }
   
@@ -226,30 +226,7 @@ font-family: 'Permanent Marker', cursive;}
     margin: 2rem auto;
     font-family: 'Architects Daughter', cursive;
 }
-.footer{
-    display: flex;
-    min-height: 15rem;
-}
-.footer-1{
-    
-    min-width: 33%;
-    flex: 1;
 
-  }
-  .footer-img{
-    width: 100%;
-  }
-  .footer-2{
-    min-width: 33%;
-    background: #ccc;
-
-  }
-  .footer-3{ 
-      
-    min-width: 33%;
-
-    background: #ddd;
-  }
   
 @media only screen and (max-width: 500px) {
    .smothie-section{
@@ -269,4 +246,12 @@ font-family: 'Permanent Marker', cursive;}
     text-align: center;
     margin : 0 auto;
 }
+  }
+  @media only screen and (max-width: 500px) {
+      .carousel-wrapper{
+          
+      }
+      .intro{
+          margin-top: 15px;
+      }
   }
