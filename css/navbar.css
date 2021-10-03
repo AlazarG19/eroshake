@@ -1,6 +1,5 @@
 
 nav{
-  background: white;
   padding: 5px 40px;
 }
 nav ul{
@@ -61,6 +60,12 @@ nav ul li.btn{
 }
 nav ul li.btn.hide i:before{
   content: '\f00d';
+}
+.logo-img {
+  max-height: 70px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 @media all and (max-width: 900px){
   nav{
