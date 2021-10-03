@@ -249,7 +249,7 @@ font-family: 'Permanent Marker', cursive;}
   }
   @media only screen and (max-width: 500px) {
       .carousel-wrapper{
-          
+          display: none;
       }
       .intro{
           margin-top: 15px;
