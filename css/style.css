@@ -9,7 +9,8 @@ body{
 }
 
 .intro{
-    background-image: linear-gradient(to bottom, white,#FAD2E1)
+
+    background-image: linear-gradient(to bottom ,#a8dadc, white, #a8dadc)
 
 }
 .intro-background{
@@ -53,7 +54,7 @@ font-family: 'Permanent Marker', cursive;}
 .smothie-section{
     min-height: 16 rem;
     width: 100%;
-    background-color: #FAD2E1;
+    background-color:  #a8dadc;;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -82,7 +83,7 @@ font-family: 'Permanent Marker', cursive;}
     background-size : cover;
 }
 .layer1{
-    background-image: url('../images/layer1.svg');  
+    background-image: url('../images/layer-1-2.svg');  
 }
 .takeaway-pic{
     max-height: 12rem;
