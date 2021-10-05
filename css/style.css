@@ -10,7 +10,7 @@ body{
 
 .intro{
 
-    background-image: linear-gradient(to bottom ,#a8dadc, white, #a8dadc)
+    background-image: linear-gradient(to bottom ,#a8dadc, #e7f1f1, #a8dadc)
 
 }
 .intro-background{
@@ -34,6 +34,7 @@ body{
     box-sizing: border-box;
     display: block;
     margin: 0 auto;
+    padding-top: 50px;
 }
 .intro-h1{
     text-align: center;
@@ -161,7 +162,7 @@ font-family: 'Permanent Marker', cursive;}
 }
 
   
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
    .smothie-section{
        flex-direction: column;
    }
@@ -181,10 +182,5 @@ font-family: 'Permanent Marker', cursive;}
 }
   }
   @media only screen and (max-width: 500px) {
-      .carousel-wrapper{
-          display: none;
-      }
-      .intro{
-          margin-top: 15px;
-      }
+      
   }
