@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/about.css">
     
     <title>Eroshake</title>
+
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         crossorigin="anonymous">
@@ -13,18 +15,25 @@
     <link rel="stylesheet" href="css/footerstyle.css">
     
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
+    <script src="./script/navbar.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/review.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <nav>
         <nav>
             <ul>
-               <li class="logo"><img class = "logo-img" src = "images/logo.png" alt = ""/></li>
-               <li class="items"><a href="index.html">Home</a></li>
-               <li class="items"><a href="#">About</a></li>
-               <li class="items"><a href="menu.html">Menu</a></li>
-               <li class="items"><a href="location.html">Location</a></li>
-               <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
-            </ul>
+                <li class="logo"><img class = "logo-img" src = "images/logo.png" alt = ""/></li>
+                <li class="items home-link"><a href="index.html">Home</a></li>
+                <li class="items about-link"><a href="#">About</a></li>
+                <li class="items menu-link"><a href="menu.html">Menu</a></li>
+                <li class="items location-link"><a href="location.html">Location</a></li>
+                <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+             </ul>
          </nav>
     </nav>
     <div class="about-section">
@@ -39,51 +48,137 @@
                     <a href="https://t.me/eroshake"><i class="fab fa-telegram"></i></a>
                   </div> 
             </div>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-          <div class="row">
             
-            <div class="footer-col">
-              <h4>Menu</h4>
-              <ul>
-                <li><a href="menu.html#smothie">Smothie</a></li>
-                <li><a href="menu.html#burger">Burger</a></li>
-                <li><a href="menu.html#sandwiches">Sandwitches</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>Location</h4>
-              <ul>
-                <li><a href="location.html">1 Hayahulet:Getfrom Building to BoleRoad</a></li>
-                <li><a href="location.html">2 Jacros to Salite Mihiret road</a></li>
-                <li><a href="location.html">3 4Kilo Next to Birhana SElam</a></li>
-                <li><a href="location.html">4 Semen Hotel</a></li>
-             <li><a href="location.html">5 Bole DH Geda Building Ground Floor</a></li>
-             <li><a href="location.html">6 Jemo 1</a></li>
-             <li><a href="location.html">7 Sheger Park</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>follow us</h4>
-              <div class="social-links">
-                <a href="https://www.facebook.com/pages/category/Smoothie---Juice-Bar/Ero-shake-juice-404669759637535/"><i class="fab fa-facebook"></i></a>
-                <a href="https://t.me/eroshake"><i class="fab fa-telegram"></i></a>
-              </div>
-            </div>
-         <div class="footer-col-last footer-col">
-           <h4>Designer</h4>
-           <ul>
-             <li>Alazar Getachew </li>
-             <li>Email : alazargetachew70@gmail.com</li>
-             <li>Contact us at 0943080509</li>
-             
-           </ul>
-         </div>
-          </div>
         </div>
-     </footer> 
+        
+    </div>
+    <div class="spacer layer5"></div>
+    <div class="review-part">
+      <section class = "review-section">
+          <div class="container-review">
+              <div class="section-title">
+                  <h2>Reviews</h2>
+                  <span class="section-separator"></span>
+                  <p>These are Some of the reviews we got from our dear customers</p>
+              </div>
+          </div>
+          <div class="testimonials-carousel-wrap">
+              <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right"
+                      style="color: #fff ; padding-top: 15px;"></i></div>
+              <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left"
+                      style="color: #fff; padding-top: 15px;"></i></div>
+              <div class="testimonials-carousel">
+                  <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <div class="testi-item">
+                                  <div class="testi-avatar"><img src="images/21.jpg"></div>
+                                  <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                  <div class="testimonials-text">
+                                      <div class="listing-rating">
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                      </div>
+                                      <p>Good fresh juices with affordable price.</p>
+                                      <a href="#" class="text-link"></a>
+                                      <div class="testimonials-avatar">
+                                          <h3>Andrew Filchenkov</h3>
+                                          <h4>Customer</h4>
+                                      </div>
+                                  </div>
+                                  <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                              </div>
+                          </div>
+  
+                          <!--second--->
+                          <div class="swiper-slide">
+                              <div class="testi-item">
+                                  <div class="testi-avatar"><img src="images/6.jpg"></div>
+                                  <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                  <div class="testimonials-text">
+                                      <div class="listing-rating">
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+  
+                                      </div>
+                                      <p>They serve nice Juice</p>
+                                      <a href="#" class="text-link"></a>
+                                      <div class="testimonials-avatar">
+                                          <h3>DR. Samuel Hailu</h3>
+                                          <h4>Customer</h4>
+                                      </div>
+                                  </div>
+                                  <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                              </div>
+                          </div>
+                          <!--third-->
+  
+                          <div class="swiper-slide">
+                              <div class="testi-item">
+                                  <div class="testi-avatar"><img src="images/4.jpg"></div>
+                                  <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                  <div class="testimonials-text">
+                                      <div class="listing-rating">
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+  
+                                      </div>
+                                      <p>Great taste,cheap,clean atmosphere but a little crowded and limited seats.</p>
+                                      <a href="#" class="text-link"></a>
+                                      <div class="testimonials-avatar">
+                                          <h3>Ein Quiry</h3>
+                                          <h4>Customer</h4>
+                                      </div>
+                                  </div>
+                                  <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                              </div>
+                          </div>
+  
+                          <!--fourth-->
+                          <div class="swiper-slide">
+                              <div class="testi-item">
+                                  <div class="testi-avatar"><img src="images/6.jpg"></div>
+                                  <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                  <div class="testimonials-text">
+                                      <div class="listing-rating">
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                          <i class="fa fa-star"></i>
+                                      </div>
+                                      <p>It takes a bit out of healthy for a good taste and
+                                          takes a bit out of taste for health.That is how life is i guess
+                                      </p>
+                                      <a href="#" class="text-link"></a>
+                                      <div class="testimonials-avatar">
+                                          <h3>Ethio Maths Nigussie</h3>
+                                          <h4>Customer</h4>
+                                      </div>
+                                  </div>
+                                  <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                              </div>
+                          </div>
+                          <!--testi end-->
+  
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="tc-pagination"></div>
+          </div>
+      </section>
+      
+  </div>
+    
      <script>
         $(document).ready(function () {
             $('.btn').click(function () {
@@ -92,5 +187,8 @@
             });
         });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="./script/review.js"></script>
 </body>
 </html>
