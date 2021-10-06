@@ -10,7 +10,7 @@
 .review-part{
 	margin: 0;
 	padding: 0;
-	height: 100%;
+	height: 350px;
 	font-size: 13px;
 	text-align: center;
 	font-family: "Roboto";
@@ -38,6 +38,7 @@
 	margin: 0 auto;
 }
 .section-title h2 {
+	font-family: 'Permanent Marker', cursive;
 	float: left;
 	width: 100%;
 	text-align: center;

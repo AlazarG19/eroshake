@@ -42,7 +42,7 @@ h1{color: white;
 
 }
 .text{
-    font-size: 14px;
+    font-size: 20px;
     color: white;
     line-height: 30px;
     text-align: center;
@@ -102,6 +102,20 @@ h1{color: white;
 }
 .layer5{
     background-image: url('../images/layer5.svg');  
+}
+h1 {
+    
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    max-width: 50rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
 }
 @media screen and (max-width:1200px){
     .inner-container{
