@@ -205,6 +205,10 @@ nav {
     background-image: url('../images/layer3.svg');
     aspect-ratio: 900/100;
 }
+.layer6 {
+    background-image: url('../images/layer-6.svg');
+    aspect-ratio: 900/100;
+}
 
 
 @media only screen and (max-width: 600px) {
