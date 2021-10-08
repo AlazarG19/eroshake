@@ -38,12 +38,9 @@ nav {
 }
 
 .intro-page {
+    margin: 0 auto;
     background-color: #f7f5f3;
     width: 300px;
-    position: absolute;
-    left: 50%;
-    margin-left: -150px;
-    top: 15%;
     opacity: 80%;
     padding: 1.2rem;
     border-radius: .6rem;
@@ -250,7 +247,6 @@ nav {
 
 @media only screen and (max-width: 400px) {
     .main-content {
-        padding-top: 100px;
     }
    
 }
