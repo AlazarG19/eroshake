@@ -176,7 +176,40 @@ nav {
     font-size: 20px;
     font-family: 'Architects Daughter', cursive;
 }
+.salad-pic {
+    max-height: 12rem;
+}
 
+.salad-section {
+    min-height: 16 rem;
+    width: 100%;
+    background-color: #B7E4C7;
+    
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.salad-texts {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+}
+
+.salad-h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.salad-h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+
+}
 .stay-section {
     background-color: white;
     text-align: center;
@@ -206,26 +239,37 @@ nav {
     background-image: url('../images/layer-6.svg');
     aspect-ratio: 900/100;
 }
+.layer9 {
+    background-image: url('../images/layer9.svg');
+    aspect-ratio: 900/100;
+}
+.layer10 {
+    background-image: url('../images/layer10.svg');
+    aspect-ratio: 900/100;
+}
 
 
 @media only screen and (max-width: 600px) {
 
     .takeaway-section,
     .smothie-section,
-    .pizzas-section {
+    .pizzas-section,
+    .salad-section {
         flex-direction: column;
     }
 
     .smothie-pic,
     .pizzas-pic,
-    .takeaway-pic {
+    .takeaway-pic,
+    .salad-pic {
         max-width: 300px;
         margin: 0 auto;
     }
 
     .smothie-texts,
     .pizzas-texts,
-    .takeaway-texts {
+    .takeaway-texts,
+    .salad-texts {
         text-align: center;
         margin: 0 auto;
     }

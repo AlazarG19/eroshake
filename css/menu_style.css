@@ -72,7 +72,12 @@ body {
 .product-list-sandwich{
   background: #a4d3c5;
 }
-
+.product-list-pizza{
+    background: #8F3E00;
+  }
+  .product-list-salad{
+    background: #2D6A4F;
+  }
 .cursor {
     cursor: pointer;
     border-bottom-left-radius: 20px;
@@ -114,7 +119,12 @@ nav ul li.btn {
 .layer8 {
   background-image: url('../images/layer8.svg');
 }
-
+.layer11 {
+    background-image: url('../images/layer11.svg');
+  }
+  .layer12 {
+    background-image: url('../images/layer12.svg');
+  }
 h1 {
     font-size: 30px;
     font-family: 'Permanent Marker', cursive;
@@ -149,4 +159,20 @@ h1 {
 
 .sandwich-section>div.scrollmenu {
   background-color: #E2ECE9;
+}
+.pizza-section {
+
+    background-color: #FFC599;
+}
+
+.pizza-section>div.scrollmenu {
+  background-color: #FFC599;
+}
+.salad-section {
+
+    background-color: #74C69D;
+}
+
+.salad-section>div.scrollmenu {
+  background-color: #74C69D;
 }
